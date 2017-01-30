@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="refresh" content="11160"/>
+    <title>Server Query</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js" type="text/javascript"></script>
+    <script src="js/script.js"></script>
+</head>
+<body>
+<div class="special">
+    <!--action="http://wt.ops.few.vu.nl/api/89937c46" method="post"-->
+    <form id="form">
+        <div>
+            Name:<br/>
+            <input type="text" name="name" id="name"/>
+        </div>
+        <div>
+            Category:<br/>
+            <input type="text" name="category" id="category"/>
+        </div>
+        <div>
+            Amount:<br/>
+            <input type="number" name="amount" id="amount"/>
+        </div>
+        <div>
+            Location:<br/>
+            <input type="text" name="location" id="location"/>
+        </div>
+        <div>
+            Date:<br/>
+            <input type="date" name="date" id="date"/>
+        </div>
+        <input type="submit"/>
+    </form>
+    <table class="sortable" id="table">
+        <tr>
+            <th>
+                name
+            </th>
+            <th>
+                category
+            </th>
+            <th>
+                amount
+            </th>
+            <th>
+                location
+            </th>
+            <th>
+                date
+            </th>
+        </tr>
+    </table>
+    <!--<button onclick="reset()" id="reset">Reset</button>-->
+</div>
+</body>
+</html>
